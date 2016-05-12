@@ -43,10 +43,10 @@ def crawler(url, word):
         except:
             print("fail")
 
-        if found:
+    if found:
             print(word, "found at", url)
 
-        else:
+    else:
             print("oops!! not found..")
 
 
